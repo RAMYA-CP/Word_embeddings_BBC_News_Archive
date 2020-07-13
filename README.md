@@ -1,4 +1,4 @@
 # Word_embeddings_BBC_News_archive
    The BBC news archive dataset contains about 2225 articles with their categories. The main objective is to build a neural net that predicts the category of the article. The stopwords from the sentences are removed and tokenized using the tensorflow library's Tokenizer and the sequences are padded and split into train and test and the neural net is fed with the training sentences and labels, the validation accuracy and loss is plotted. The model still needs hyperparameter tuning to be done as it can be seen that it is overfitting.
-<a href="https://imgflip.com/gif/484cxc"><img src="https://imgflip.com/gif/484cxc.gif"/></a>
+<img src="https://imgflip.com/gif/484cxc.gif"/>
 This is the visualization of embeddings along with the labels. Which shows the neighbouring vectors for the word "dangerous" and it can be seen that similar words are clustered together.
